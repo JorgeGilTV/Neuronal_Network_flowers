@@ -28,10 +28,10 @@ warnings.filterwarnings('ignore')
 num_trees = 100
 test_size = 0.10
 seed      = 9
-train_path = "C:/Users/Python Scripts/Neuronal_Network_flowers/dataset/train"
-test_path  = "C:/Users/Python Scripts/Neuronal_Network_flowers/dataset/test"
-h5_data    = 'C:/Users/Python Scripts/Neuronal_Network_flowers/output/data.h5'
-h5_labels  = 'C:/Users/Python Scripts/Neuronal_Network_flowers/output/labels.h5'
+train_path = "C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/dataset/train"
+test_path  = "C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/dataset/test"
+h5_data    = 'C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/output/data.h5'
+h5_labels  = 'C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/output/labels.h5'
 scoring    = "accuracy"
 
 # get the training labels

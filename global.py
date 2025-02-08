@@ -14,9 +14,9 @@ import h5py
 #--------------------
 images_per_class = 80
 fixed_size       = tuple((500, 500))
-train_path       = "C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/dataset/train"
-h5_data          = 'C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/output/data.h5'
-h5_labels        = 'C:/Users/Python Scripts/Flores/euronal_Network_flowers/output/labels.h5'
+train_path       = "C:\\Users\\Python Scripts\\Flores\\Neuronal_Network_flowers\\dataset\\train"
+h5_data          = 'C:\\Users\\Python Scripts\\Flores\\Neuronal_Network_flowers\\output\\data.h5'
+h5_labels        = 'C:\\Users\\Python Scripts\\Flores\\Neuronal_Network_flowers\\output\\labels.h5'
 bins             = 8
 
 # feature-descriptor-1: Hu Moments
@@ -67,7 +67,7 @@ for training_name in train_labels:
     # loop over the images in each sub-folder
     for x in range(1,images_per_class+1):
         # get the image file name
-        file = dir + "/" + str(x) + ".jpg"
+        file = dir + "\\" + str(x) + ".jpg"
 
         # read the image and resize it to a fixed-size
         image = cv2.imread(file)
