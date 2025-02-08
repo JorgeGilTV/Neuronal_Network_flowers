@@ -14,9 +14,9 @@ import h5py
 #--------------------
 images_per_class = 80
 fixed_size       = tuple((500, 500))
-train_path       = "C:/Users/Python Scripts/Flores/dataset/train"
-h5_data          = 'C:/Users/Python Scripts/Flores/output/data.h5'
-h5_labels        = 'C:/Users/Python Scripts/Flores/output/labels.h5'
+train_path       = "C:/Users/Python Scripts/Flore/Neuronal_Network_flowers/dataset/train"
+h5_data          = 'C:/Users/Python Scripts/Flores/Neuronal_Network_flowers/output/data.h5'
+h5_labels        = 'C:/Users/Python Scripts/Flores/euronal_Network_flowers/output/labels.h5'
 bins             = 8
 
 # feature-descriptor-1: Hu Moments

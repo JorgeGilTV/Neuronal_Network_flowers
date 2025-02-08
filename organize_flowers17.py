@@ -32,7 +32,7 @@ def untar(fname, path):
 if __name__ == '__main__':
 	flowers17_url  = "http://www.robots.ox.ac.uk/~vgg/data/flowers/17/"
 	flowers17_name = "17flowers.tgz"
-	train_dir      = "C:\\Users\\jorgil\\Documents\\Python Scripts\\Flores\\dataset"
+	train_dir      = "C:\\Users\\Python Scripts\\Flores\\Neuronal_Network_flowers\\dataset"
 
 	#if not os.path.exists(train_dir):
 	#	os.makedirs(train_dir)
