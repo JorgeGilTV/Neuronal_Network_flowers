@@ -42,3 +42,35 @@ the objetive for this python script is to verify the accuracy for below models:
 'NB', GaussianNB()
 
 'SVM', SVC()
+
+Expected results ( not exact ):
+
+[STATUS] features shape: (1360, 532)
+
+[STATUS] labels shape: (1360,)
+
+[STATUS] training started...
+
+[STATUS] splitted train and test data...
+
+Train data  : (1224, 532)
+
+Test data   : (136, 532)
+
+Train labels: (1224,)
+
+Test labels : (136,)
+
+LR: 0.513155 (0.047052)
+
+LDA: 0.448534 (0.031931)
+
+KNN: 0.357044 (0.025681)
+
+CART: 0.483713 (0.025872)
+
+RF: 0.646208 (0.022678)
+
+NB: 0.358670 (0.026739)
+
+SVM: 0.502526 (0.044709)
