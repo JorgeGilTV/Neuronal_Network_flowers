@@ -1,7 +1,7 @@
 # Neuronal_Network_flowers
 Python script with newronal network to train and predict the flowers 
-
-prerequisites:
+________________________________________________________________________________________
+# Prerequisites:
 
 pip install scikit-learn
 
@@ -28,6 +28,7 @@ train and test will organize all things, train the model and test with different
 the objetive for this python script is to verify the accuracy for below models:
 
 # Machine Learning Models
+________________________________________________________________________________________
 
 'LR', LogisticRegression(random_state=seed)
 
@@ -43,7 +44,8 @@ the objetive for this python script is to verify the accuracy for below models:
 
 'SVM', SVC()
 
-Expected results ( not exact ):
+# Expected results ( not exact ):
+________________________________________________________________________________________
 
 [STATUS] features shape: (1360, 532)
 
@@ -74,3 +76,4 @@ RF: 0.646208 (0.022678)
 NB: 0.358670 (0.026739)
 
 SVM: 0.502526 (0.044709)
+________________________________________________________________________________________
