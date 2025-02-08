@@ -62,8 +62,10 @@ if __name__ == '__main__':
 	# loop over the class labels
 	for x in range(1, class_limit+1):
 		# create a folder for that class
-        
-		os.makedirs(train_dir + "\\train\\" + class_names[label]+'1')
+		if os.path.exists(train_dir + "\\train\\" + class_names[label]+'1'):
+			print("Folder already exists!!")
+		else:	
+			os.makedirs(train_dir + "\\train\\" + class_names[label]+'1')
 		
 		# get the current path
 		cur_path = train_dir + "\\train\\" + class_names[label] + "\\"
